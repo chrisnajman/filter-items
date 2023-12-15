@@ -1,11 +1,12 @@
 import { itemsArray } from "../globals.js"
 import lazyLoad from "../observers/lazy-load-images-intersection-observer.js"
+const ITEM_TPLS_API = "../items.json"
 
 const itemsList = document.getElementById("items-list")
 const itemTemplate = document.getElementById("item-template")
 
 export default async function itemsDisplay() {
-  const ITEM_TPLS_API = "../items.json"
+  // const ITEM_TPLS_API = "../items.json"
   const loadingMessage = document.getElementById("loading-message")
   try {
     const response = await fetch(ITEM_TPLS_API)
