@@ -5,7 +5,7 @@ const itemsList = document.getElementById("items-list")
 const itemTemplate = document.getElementById("item-template")
 
 export default async function itemsDisplay() {
-  const ITEM_TPLS_API = "../items.json"
+  const ITEM_TPLS_API = "https://github.com/chrisnajman/filter-items/items.json"
   const loadingMessage = document.getElementById("loading-message")
   try {
     const response = await fetch(ITEM_TPLS_API)
