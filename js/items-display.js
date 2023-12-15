@@ -1,6 +1,6 @@
-import { itemsArray } from "../globals.js"
-import lazyLoad from "../observers/lazy-load-images-intersection-observer.js"
-const ITEM_TPLS_API = "../../../items.json"
+import { itemsArray } from "./modules/globals.js"
+import lazyLoad from "./modules/observers/lazy-load-images-intersection-observer.js"
+const ITEM_TPLS_API = "items.json"
 
 const itemsList = document.getElementById("items-list")
 const itemTemplate = document.getElementById("item-template")
