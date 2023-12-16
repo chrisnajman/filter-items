@@ -1,4 +1,4 @@
-import { itemsArray } from "./globals.js"
+import { itemsArray } from "../globals.js"
 
 const filters = document.getElementById("filters")
 const filterButtons = document.querySelectorAll(".filter-btn")
