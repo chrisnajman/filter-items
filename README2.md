@@ -12,12 +12,11 @@ This template has been assembled from a combination of online tutorials (see [So
 
 ## JavaScript
 
-ES6 Modules are used without transpilation to ES5.
-
-- `js/modules/items/items-filter.js` - Filters items based on their category, wrapped in a `startViewTransition` function. _Note_: There is a fallback for non-supporting browsers; however, Firefox may log `startViewTransition` as a type error without affecting the page display.
-- `js/modules/observers/lazy-load-images-intersection-observer.js` - Lazy-loads images upon entering the viewport.
-- `js/modules/items/items-display.js` - Outputs content from items.json into the HTML template.
+- ES6 Modules are used without transpilation to ES5.
 - `js/modules/observers/article-header-intersection-observer` - Handles the visibility of 'Back to filters' when scrolling past the article header.
+- `js/modules/observers/lazy-load-images-intersection-observer.js` - Lazy-loads images upon entering the viewport.
+- `js/modules/items/items-filter.js` - Filters items based on their category, wrapped in a `startViewTransition` function. Note: There's a fallback for non-supporting browsers; however, Firefox may log `startViewTransition` as a type error without affecting the page display.
+- `js/modules/items/items-display.js` - Outputs content from items.json into the HTML template.
 - Additionally, `js/modules/theme-switcher.js` provides functionality for toggling dark mode, saving the selected mode to local storage.
 
 ## CSS
