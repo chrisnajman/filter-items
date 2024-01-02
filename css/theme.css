@@ -36,7 +36,7 @@
 }
 
 .light-theme {
-    --body-bg: var(--clr-lightest);
+    --body-bg: var(--clr-light-green);
     --body-txt: var(--clr-darkest);
     --header-footer-bg: var(--clr-lightest);
     --header-footer-txt: var(--clr-darkest);
