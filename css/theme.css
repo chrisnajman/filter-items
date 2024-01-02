@@ -28,7 +28,6 @@
     --filter-active-txt: var(--clr-darkest);
     --footer-border: var(--clr-transparent);
     --main-link: var(--clr-light-blue);
-    --article-bg: var(--clr-transparent);
     --item-shadow: rgba(0, 0, 0, 0.5);
     --item-bg: var(--clr-grey-green);
     --theme-icon: var(--clr-lightest);
@@ -47,9 +46,8 @@
     --filter-active-txt: var(--clr-lightest);
     --footer-border: var(--clr-green);
     --main-link: var(--clr-blue);
-    --article-bg: var(--clr-lightest);
     --item-shadow: rgba(0, 0, 0, 0.3);
-    --item-bg: var(--clr-transparent);
+    --item-bg: var(--clr-lightest);
     --theme-icon: var(--clr-orange);
     --theme-txt: var(--clr-darkest);
 }
