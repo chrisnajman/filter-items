@@ -53,28 +53,34 @@ export default function itemsFilter() {
   function populateArticleIntro(buttonText) {
     switch (buttonText) {
       case "All":
-        categoryIntro.textContent = "All colour items."
+        categoryIntro.textContent = "All colours."
         break
       case "Red":
-        categoryIntro.textContent = "Only red items."
+        categoryIntro.textContent =
+          "Red is at the long wavelength end of the visible spectrum, next to orange and opposite violet."
         break
       case "Green":
-        categoryIntro.textContent = "Only green items."
+        categoryIntro.textContent =
+          "Green is between cyan and yellow on the visible spectrum."
         break
       case "Blue":
-        categoryIntro.textContent = "Only blue items."
+        categoryIntro.textContent =
+          "Blue lies between violet and cyan on the spectrum of visible light."
         break
       case "Orange":
-        categoryIntro.textContent = "Only orange items."
+        categoryIntro.textContent =
+          "Orange is between yellow and red on the spectrum of visible light."
         break
       case "Purple":
-        categoryIntro.textContent = "Only purple items."
+        categoryIntro.textContent =
+          "Purple, created by combining red and blue pigments, is similar in appearance to violet light."
         break
       case "Yellow":
-        categoryIntro.textContent = "Only yellow items."
+        categoryIntro.textContent =
+          "Yellow is between green and orange on the spectrum of light."
         break
       default:
-        categoryIntro.textContent = "All colour items."
+        categoryIntro.textContent = "All colours."
     }
   }
 }
