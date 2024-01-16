@@ -27,6 +27,10 @@ ES6 Modules are used without transpilation to ES5.
 - CSS nesting is used for internal file organization.
 - Dark theme option is available.
 
+## WAVE Web Accessibility Evaluation Tools Report
+
+- [Automated accessibility analysis results](https://wave.webaim.org/report#/https://wave.webaim.org/report#/https://chrisnajman.github.io/filter-items/)
+
 ## Testing
 
 Tested on Windows 10 with:
